@@ -74,6 +74,41 @@ i:hover {
 	background-color: #36cad5;
 }
 
+@media only screen and (max-device-width: 1024px) {
+
+	#container {
+		background-color: #212B52;
+		min-width: 100%;
+		transform: skewX(-15deg) translateX(-300px);
+		position: absolute;
+		box-shadow: 2px 4px 50px 10px rgba(0, 0, 0, 0.3);
+		height: 100vh;
+	}
+
+	#content {
+		top: 7%;
+		left: 5%;
+	}
+
+	.logo {
+		width: 50px;
+		margin-bottom: 15%;
+	}	
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h3 {
+		font-size: 1em;
+	}
+
+	i {
+  		margin-right: 15px;
+	}
+
+}
+
 @media only screen and (max-device-width: 736px) {
 
 	#container {
