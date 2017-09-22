@@ -1,0 +1,113 @@
+html {
+	color: #ffffff;
+	font-family: "lato", "helvetica", sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.15em;
+}
+
+body {
+	background-image: url(../assets/bg.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0;
+
+}
+
+#container {
+	background-color: #212B52;
+	min-width: 60%;
+	transform: skewX(-15deg) translateX(-300px);
+	position: absolute;
+	box-shadow: 2px 4px 50px 10px rgba(0, 0, 0, 0.3);
+	height: 100vh;
+
+}
+
+#content {
+	position: absolute;	
+	top: 15%;
+	left: 10%;
+}
+
+.logo {
+	width: 50px;
+	margin-bottom: 30%;
+}
+
+h1 {
+	font-size: 3.5em;
+	margin-bottom: 8%;
+	text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15);
+
+}
+
+h3 {
+	font-size: 1.25em;
+	font-weight: 300;
+	line-height: 1.6;
+}
+
+
+ul {
+	list-style: none;
+	margin-top: 8%;
+}
+
+ul li {
+	display: inline;
+}
+
+a {
+	color: white;
+}
+
+i {
+  display: inline-block;
+  border-radius: 60px;
+  background-color: #F32773;
+  padding: 0.3em;
+  margin-right: 25px;
+  transition: background-color 1s ease;
+}
+
+i:hover {
+	background-color: #36cad5;
+}
+
+@media only screen and (max-device-width: 736px) {
+
+	#container {
+		visibility: hidden;
+	}
+
+	#content {
+		top: 7%;
+		left: 5%;
+	}
+
+	.logo {
+		width: 50px;
+		margin-bottom: 15%;
+	}	
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h3 {
+		font-size: 1em;
+	}
+
+	i {
+  		margin-right: 15px;
+	}
+
+}
+
+
+
+
+
+
+
+
