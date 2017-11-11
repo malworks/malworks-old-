@@ -39,3 +39,42 @@
 h1 {
 	color: #fff;
 }
+
+.mainProject:nth-child(1) {
+	background-color: #555;
+	height: 50vh;
+}
+
+.mainProject:nth-child(2) {
+	background-color: #666;
+	height: 50vh;
+}
+
+#secondaryProjects {
+	display: flex;
+	flex-wrap: wrap;
+  	flex-direction: row;
+}
+
+.gridProjects {
+	justify-content: center;
+	flex-direction: column;
+	width: 50%;
+	height: 50vh;
+}
+
+.gridProjects:nth-child(1) {
+	background-color: #333;
+}
+
+.gridProjects:nth-child(2) {
+	background-color: #777;
+}
+
+.gridProjects:nth-child(3) {
+	background-color: #888;
+}
+
+.gridProjects:nth-child(4) {
+	background-color: #999;
+}
