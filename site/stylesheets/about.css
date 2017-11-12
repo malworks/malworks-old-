@@ -1,0 +1,11 @@
+#aboutHero {
+	background: url('../assets/bg.jpg');
+	background-size: cover;
+	background-position: fixed;
+  	height: 90vh;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-direction: column;
+}
