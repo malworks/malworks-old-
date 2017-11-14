@@ -1,3 +1,6 @@
+
+/* Hero section */
+
 #aboutHero {
 	background: url('../assets/bg.jpg');
 	background-size: cover;
@@ -9,6 +12,8 @@
   	justify-content: center;
   	flex-direction: column;
 }
+
+/* Intro & What I Do */
 
 #intro {
 	display: flex;
@@ -30,4 +35,21 @@
     padding: 0.5em;
     margin-right: 25px;
     color: #fff;
+}
+
+/* About text */
+
+#about {
+	height: 50vh;
+	background-color: red;
+}
+
+/* Experience Section */
+
+#experience {
+	margin: 5em;
+}
+
+.experiencePosition {
+	margin: 5em;
 }
