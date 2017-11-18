@@ -1,6 +1,5 @@
 
 /* Universal styles */
-
 body {
 	margin: 0px;
 	font-family: "lato", Helvetica, sans-serif;
@@ -84,19 +83,42 @@ a:active {
   background-color: #212b52;
 }
 
-#logo img {
+.logo img {
 	width: 50px;
 	margin: 1.25em;
 }
 
-.main-nav {
-	display: flex;
+.logo {
+	flex: 1 0 70%;
 }
 
+.main-nav {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+
 .main-nav li {
-	justify-content: flex-start;
 	text-transform: uppercase;
-	margin: 2em;
+	font-weight: 600;
+	margin: 0;
+}
+
+.main-nav li:nth-child(2) {
+	flex: 1 0 5%;
+}
+
+.main-nav li:nth-child(3) {
+	flex: 1 0 5%;
+}
+
+.main-nav li:nth-child(4) {
+	flex: 1 0 5%;
+}
+
+.main-nav a:hover {
 	font-weight: 600;
 }
 
