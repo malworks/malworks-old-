@@ -1,9 +1,49 @@
 
 /* Universal styles */
 
-h1 {
-	color: #fff;
+body {
+	margin: 0px;
 }
+
+p {
+ 	font-family: "Lato", Helvetica, sans-serif;
+ 	font-size: 16px;
+ 	color: #333;
+}
+
+h1 {
+ 	font-family: Lato, Helvetica, sans-serif;
+ 	font-size: 76px;
+ 	font-weight: bold;
+ 	color: #fff;
+}
+
+h2 {
+ 	font-family: "Lato", Helvetica, sans-serif;
+ 	font-size: 36px;
+ 	font-weight: bold;
+ 	color: #333;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+ 	font-weight: normal;
+ 	text-decoration: underline;
+ 	color: #f32773;
+ }
+
+a:active {
+ 	font-weight: normal;
+ 	text-decoration: none;
+ 	color: #ffffff;
+ }
+
+ li {
+ 	list-style: none;
+ }
 
 /* Header and hero styles */
 
@@ -37,7 +77,6 @@ h1 {
 
 .main-nav {
 	display: flex;
-	list-style: none;
 }
 
 .main-nav li {
