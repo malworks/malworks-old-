@@ -3,30 +3,42 @@
 
 body {
 	margin: 0px;
+	font-family: "lato", Helvetica, sans-serif;
+	font-size: 16px;
 }
 
 p {
- 	font-family: "Lato", Helvetica, sans-serif;
- 	font-size: 16px;
+ 	font-size: 1em;
  	color: #333;
 }
 
 h1 {
- 	font-family: Lato, Helvetica, sans-serif;
  	font-size: 76px;
  	font-weight: bold;
  	color: #fff;
 }
 
 h2 {
- 	font-family: "Lato", Helvetica, sans-serif;
  	font-size: 36px;
  	font-weight: bold;
- 	color: #333;
+ 	color: #fff;
+}
+
+h3 {
+	font-size: 32px;
+}
+
+h4 {
+	font-size: 26px;
+}
+
+h5 {
+	font-size: 18px;
 }
 
 a:link, a:visited {
 	text-decoration: none;
+	color: #fff;
 }
 
 a:hover {
@@ -45,12 +57,12 @@ a:active {
  	list-style: none;
  }
 
-/* Header and hero styles */
+/* Hero styles */
 
 #hero {
 	background: url('../assets/bg.jpg');
 	background-size: cover;
-	background-position: fixed;
+	background-attachment: fixed;
   	height: 90vh;
   	text-align: center;
   	display: flex;
@@ -58,6 +70,8 @@ a:active {
   	justify-content: center;
   	flex-direction: column;
 }
+
+/*Header styles*/
 
 #header {
   display: flex;
@@ -67,12 +81,12 @@ a:active {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: #333;
+  background-color: #212b52;
 }
 
 #logo img {
 	width: 50px;
-	margin: 1em;
+	margin: 1.25em;
 }
 
 .main-nav {
@@ -81,6 +95,9 @@ a:active {
 
 .main-nav li {
 	justify-content: flex-start;
+	text-transform: uppercase;
+	margin: 2em;
+	font-weight: 600;
 }
 
 
