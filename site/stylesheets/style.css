@@ -81,6 +81,7 @@ a:active {
   position: fixed;
   top: 0;
   background-color: #212b52;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.18);
 }
 
 .logo img {
@@ -89,14 +90,13 @@ a:active {
 }
 
 .logo {
-	flex: 1 0 70%;
+	flex: 0 1 70%;
 }
 
 .main-nav {
 	width: 100%;
 	display: flex;
-	justify-content: flex-end;
-
+	justify-content: space-between;
 }
 
 
@@ -104,24 +104,17 @@ a:active {
 	text-transform: uppercase;
 	font-weight: 600;
 	margin: 0;
-}
-
-.main-nav li:nth-child(2) {
-	flex: 1 0 5%;
-}
-
-.main-nav li:nth-child(3) {
-	flex: 1 0 5%;
+	align-self: center;
+	align-items: center;
 }
 
 .main-nav li:nth-child(4) {
-	flex: 1 0 5%;
+	margin-right: 2em;
 }
 
 .main-nav a:hover {
 	font-weight: 600;
 }
-
 
 /* Project & portfolio styles */
 
