@@ -170,7 +170,6 @@ a:active {
 
 #footer {
 	background-color: #e7e8e8;
-	height: 250px;
 	display: flex;
 	flex-direction: column;
 }
@@ -181,14 +180,21 @@ a:active {
 	margin: 1.5em;
 }
 
-.footer-social i {
-	display: inline-block;
-    border-radius: 60px;
-    background-color: #F32773;
-    padding: 0.3em;
-    margin-right: 25px;
-    transition: background-color 1s ease;
+#footer p {
+	margin: 0 0 1em 0;
+	line-height: 1.5;
 }
 
-.footer-social li {
+#footer i {
 	display: inline-block;
+    padding: 0.3em;
+    margin: 0 8px 0 8px;
+}
+
+.footer-social i {
+	border-radius: 60px;
+    background-color: #F32773;
+    transition: background-color 1s ease;
+
+}
+
