@@ -165,3 +165,30 @@ a:active {
 	background-color: #555;
 	margin-top: 25vh;
 }
+
+/* Footer styles */
+
+#footer {
+	background-color: #e7e8e8;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+}
+
+#footer > * {
+	display: flex;
+	justify-content: center;
+	margin: 1.5em;
+}
+
+.footer-social i {
+	display: inline-block;
+    border-radius: 60px;
+    background-color: #F32773;
+    padding: 0.3em;
+    margin-right: 25px;
+    transition: background-color 1s ease;
+}
+
+.footer-social li {
+	display: inline-block;
