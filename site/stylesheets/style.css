@@ -198,3 +198,11 @@ a:active {
 
 }
 
+a:hover {
+	color: #fff;
+}
+
+i:hover {
+	background-color: #36cad5;
+}
+
