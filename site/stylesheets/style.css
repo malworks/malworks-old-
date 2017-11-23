@@ -144,9 +144,6 @@ a:active {
 }
 
 .gridProjects {
-	justify-content: center;
-	flex-direction: column;
-	width: 50%;
 	height: 50vh;
 }
 
