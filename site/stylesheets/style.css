@@ -145,6 +145,7 @@ a:active {
 
 .gridProjects {
 	height: 50vh;
+	background-color: #222;
 }
 
 .gridProjects:nth-child(1) {
