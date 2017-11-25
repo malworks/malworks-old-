@@ -126,14 +126,18 @@ a:active {
 
 /* Project & portfolio styles */
 
+#featuredProjects {
+	background-size:contain;
+	background-position:center;
+}
 
-.mainProject:nth-child(1) {
-	background-color: #555;
+.mainProject-1  {
+	background: url("../assets/portfolio/chakra-thumb.jpg");
 	height: 50vh;
 }
 
-.mainProject:nth-child(2) {
-	background-color: #666;
+.mainProject-2 {
+	background: url("../assets/portfolio/diddit-thumb.jpg");
 	height: 50vh;
 }
 
@@ -145,24 +149,24 @@ a:active {
 
 .gridProjects {
 	height: 50vh;
-	background-color: #222;
 }
 
-.gridProjects:nth-child(1) {
-	background-color: #333;
+.gridProjects-1 {
+	background: url("../assets/portfolio/marchhare-thumb.jpg");
 }
 
-.gridProjects:nth-child(2) {
-	background-color: #777;
+.gridProjects-2 {
+	background: url("../assets/portfolio/shantea-thumb.jpg");
 }
 
-.gridProjects:nth-child(3) {
-	background-color: #888;
+.gridProjects-3 {
+	background: url("../assets/portfolio/weather-thumb.jpg");
 }
 
-.gridProjects:nth-child(4) {
-	background-color: #999;
+.gridProjects-4 {
+	background: url("../assets/portfolio/default-thumb.jpg");
 }
+
 
 /* Contact styles */
 
