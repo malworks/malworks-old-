@@ -126,9 +126,9 @@ a:active {
 
 /* Project & portfolio styles */
 
-#featuredProjects {
-	background-size:contain;
-	background-position:center;
+#featuredProjects div {
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .mainProject-1  {
