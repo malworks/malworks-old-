@@ -32,12 +32,13 @@ h3 {
  }
 
 h4 {
-	font-size: 26px;
+	font-size: 22px;
 }
 
 h5 {
 	font-size: 18px;
 	color: #fff;
+	font-weight: 200;
 }
 
 a:link, a:visited {
@@ -209,6 +210,20 @@ a:active {
 	height: 50vh;
 	background-color: #555;
 	margin-top: 25vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+#contact h2 {
+	margin-bottom: 1.25em;
+}
+
+#contact a {
+	margin-top: 1em;
+	display: inline;
 }
 
 /* Footer styles */
