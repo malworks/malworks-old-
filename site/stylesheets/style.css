@@ -37,6 +37,7 @@ h4 {
 
 h5 {
 	font-size: 18px;
+	color: #fff;
 }
 
 a:link, a:visited {
@@ -129,10 +130,17 @@ a:active {
 #featuredProjects div {
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center right;
 }
 
 #featuredProjects a {
 	display: block;
+}
+
+.mainProject {
+	height: 50vh;
+	background-color: rgba(0, 0, 0, 0.5);
+  	background-blend-mode: multiply;
 }
 
 .mainProject:hover {
@@ -142,16 +150,14 @@ a:active {
 
 .mainProject-1  {
 	background: url("../assets/portfolio/chakra-thumb.jpg");
-	height: 50vh;
-	background-color: rgba(0, 0, 0, 0.5);
-  	background-blend-mode: multiply;
 }
 
 .mainProject-2 {
 	background: url("../assets/portfolio/diddit-thumb.jpg");
-	height: 50vh;
-	background-color: rgba(0, 0, 0, 0.5);
-  	background-blend-mode: multiply;
+}
+
+.projectTitle {
+	margin: 2em 0 0 2em;
 }
 
 #secondaryProjects {
@@ -162,6 +168,13 @@ a:active {
 
 .gridProjects {
 	height: 50vh;
+	background-color: rgba(0, 0, 0, 0.5);
+  	background-blend-mode: multiply;
+}
+
+.gridProjects:hover {
+	background-color: rgba(255, 255, 255, 0.15);
+  	background-blend-mode: screen;
 }
 
 .gridProjects a span { 
@@ -174,26 +187,19 @@ a:active {
 
 .gridProjects-1 {
 	background: url("../assets/portfolio/marchhare-thumb.jpg");
-	background-color: rgba(0, 0, 0, 0.5);
-  	background-blend-mode: multiply;
+
 }
 
 .gridProjects-2 {
 	background: url("../assets/portfolio/shantea-thumb.jpg");
-	background-color: rgba(0, 0, 0, 0.5);
-  	background-blend-mode: multiply;
 }
 
 .gridProjects-3 {
 	background: url("../assets/portfolio/weather-thumb.jpg");
-	background-color: rgba(0, 0, 0, 0.5);
-  	background-blend-mode: multiply;
 }
 
 .gridProjects-4 {
 	background: url("../assets/portfolio/default-thumb.jpg");
-	background-color: rgba(0, 0, 0, 0.5);
-  	background-blend-mode: multiply;
 }
 
 
