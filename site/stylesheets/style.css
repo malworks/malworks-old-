@@ -5,11 +5,14 @@ body {
 	font-family: "lato", Helvetica, sans-serif;
 	font-size: 16px;
 	line-height: 1.25;
+	background: url('../assets/bg.jpg') no-repeat fixed;
+
 }
 
 #container {
-	background: url('../assets/bg.jpg') 0 0 repeat fixed;
+	background: url('../assets/bg.jpg') no-repeat fixed;
 	background-size: cover;
+	height: 100vh;
 }
 
 p {
@@ -96,6 +99,7 @@ a:active {
   top: 0;
   background-color: #212b52;
   box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.18);
+  z-index: 100;
 }
 
 .logo img {
