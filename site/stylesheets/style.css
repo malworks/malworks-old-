@@ -5,9 +5,11 @@ body {
 	font-family: "lato", Helvetica, sans-serif;
 	font-size: 16px;
 	line-height: 1.25;
-	background: url('../assets/bg.jpg');
+}
+
+#container {
+	background: url('../assets/bg.jpg') 0 0 repeat fixed;
 	background-size: cover;
-	background-attachment: fixed;
 }
 
 p {
@@ -68,7 +70,6 @@ a:active {
 /* Hero styles */
 
 #hero {
-	background: url('../assets/bg.jpg');
 	background-size: cover;
 	background-attachment: fixed;
   	height: 90vh;
