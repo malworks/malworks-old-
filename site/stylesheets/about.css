@@ -35,7 +35,7 @@
     margin-bottom: 16px;
 }
 
-.whatIDo h3, h5 {
+.whatIDo h3, .whatIDo h5 {
 	color: #333;
 }
 
@@ -47,8 +47,14 @@
 
 #about {
 	height: 50vh;
-	background-color: red;
+	background-color: #212b52;
+	color: white;
 }
+
+#aboutText h3 {
+	font-weight: 400;
+}
+
 
 /* Experience Section */
 
