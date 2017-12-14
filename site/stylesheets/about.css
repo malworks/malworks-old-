@@ -14,7 +14,7 @@
 	display: flex;
 	flex-wrap: wrap;
   	flex-direction: row;
-  	background-color: #333;
+  	background-color: white;
 }
 
 .whatIDo {
@@ -22,7 +22,6 @@
 	flex-direction: column;
 	text-align: center;
 	width: 33.33333%;
-	height: 50vh;
 	margin: 2em;
 	flex: 0 1 29%;
 }
@@ -32,8 +31,16 @@
     border-radius: 60px;
     background-color: #F32773;
     padding: 0.5em;
-    margin-right: 25px;
     color: #fff;
+    margin-bottom: 16px;
+}
+
+.whatIDo h3, h5 {
+	color: #333;
+}
+
+.whatIDo h3 {
+	font-weight: 400;
 }
 
 /* About text */
