@@ -20,8 +20,11 @@
 .whatIDo {
 	justify-content: center;
 	flex-direction: column;
+	text-align: center;
 	width: 33.33333%;
 	height: 50vh;
+	margin: 2em;
+	flex: 0 1 29%;
 }
 
 .whatIDo i {
