@@ -71,11 +71,7 @@
 /* Experience Section */
 
 #experience {
-	margin: 5em;
-}
-
-.experiencePosition {
-	margin: 5em;
+	background-color: grey;
 }
 
 /* Education section */
