@@ -84,11 +84,11 @@
 	display: flex;
 	flex-wrap: wrap;
   	flex-direction: row;
+  	justify-content: space-around;
   	background-color: #36cad5;
 }
 
 .education-section {
-	justify-content: center;
 	flex-direction: column;
 	margin: 4em 2em;
 }
