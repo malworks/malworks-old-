@@ -81,19 +81,16 @@
 /* Education section */
 
 #education {
-	background-color: #36cad5;
+	display: flex;
+	flex-wrap: wrap;
+  	flex-direction: row;
+  	background-color: #36cad5;
 }
 
-#education div {
-	margin: 3em 0;
-}
-
-#education .column-1 {
-	padding: 4em 0 4em 15em;
-}
-
-#education .column-2 {
-	padding: 4em 15em 4em 0;
+.education-section {
+	justify-content: center;
+	flex-direction: column;
+	margin: 4em 2em;
 }
 
 #education h2, #education h4 {
