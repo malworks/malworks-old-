@@ -105,7 +105,7 @@ a:active {
   z-index: 100;
 }
 
-.logo img {
+.main-nav img {
 	width: 50px;
 	margin: 1.25em 1.25em 0 1.25em;
 }
@@ -294,6 +294,25 @@ i:hover {
 	}
 
 	#mobile-nav {
-		display: inline-block;
+		display: table;
+		
+	}
+
+	#mobile-nav figure {
+		display: table-cell;
+		vertical-align: middle;
+		padding: 1em;
+	}
+
+	#mobile-nav img {
+		width: 50px;
+	}
+
+	.hamburger {
+		color: white;
+	}
+
+	#mobile-nav ul {
+		display: none;
 	}
 }
