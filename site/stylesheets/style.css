@@ -294,14 +294,16 @@ i:hover {
 	}
 
 	#mobile-nav {
-		display: table;
-		
+		display: flex;
 	}
 
 	#mobile-nav figure {
-		display: table-cell;
-		vertical-align: middle;
-		padding: 1em;
+		padding: 1em 0 0 1em;
+	}
+
+	#mobile-nav:nth-child(2) {
+		position: relative;
+		float: right;
 	}
 
 	#mobile-nav img {
