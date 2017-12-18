@@ -141,6 +141,10 @@ a:active {
 	font-weight: 600;
 }
 
+#mobile-nav {
+	display: none;
+}
+
 /* Project & portfolio styles */
 
 #featuredProjects div {
@@ -287,5 +291,9 @@ i:hover {
 @media screen and (max-width: 1000px) {
 	.main-nav {
 		display: none;
+	}
+
+	#mobile-nav {
+		display: inline-block;
 	}
 }
