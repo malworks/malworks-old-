@@ -282,3 +282,10 @@ i:hover {
 	background-color: #36cad5;
 }
 
+/* Media Queries */
+
+@media screen and (max-width: 1000px) {
+	.main-nav {
+		display: none;
+	}
+}
