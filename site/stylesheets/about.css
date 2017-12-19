@@ -71,7 +71,13 @@
 /* Experience Section */
 
 #experience {
-	background-color: grey;
+	background-color: white;
+}
+
+#experience h2, #experience h4, #experience h5 {
+	color: #333;
+	font-weight: 400;
+	text-transform: uppercase;
 }
 
 /* Education section */
