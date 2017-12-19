@@ -295,15 +295,15 @@ i:hover {
 
 	#mobile-nav {
 		display: flex;
+		width: 100%;
 	}
 
 	#mobile-nav figure {
 		padding: 1em 0 0 1em;
 	}
 
-	#mobile-nav:nth-child(2) {
-		position: relative;
-		float: right;
+	#mobile-nav .logo {
+		flex: 0 1 92%;
 	}
 
 	#mobile-nav img {
