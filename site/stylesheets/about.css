@@ -87,9 +87,21 @@
 .experiencePosition {
 	justify-content: center;
 	flex-direction: column;
-	width: 33.33333%;
+	width: 40%;
 	margin: 4em 2em;
 	flex: 0 1 26%;
+}
+
+#experience h4 {
+	display: inline-block;
+}
+
+.more-info {
+	margin-left: 11.5em;
+}
+
+.margin-left {
+	margin-left: 2em;
 }
 
 /* Education section */
@@ -115,6 +127,7 @@
 #education h2 {
 	font-weight: 600;
 }
+
 #education h4 {
 	display: inline-block;
 }
