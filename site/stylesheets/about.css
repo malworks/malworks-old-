@@ -80,6 +80,18 @@
 	text-transform: uppercase;
 }
 
+#experience h2 {
+	font-weight: 600;
+}
+
+.experiencePosition {
+	justify-content: center;
+	flex-direction: column;
+	width: 33.33333%;
+	margin: 4em 2em;
+	flex: 0 1 26%;
+}
+
 /* Education section */
 
 #education {
