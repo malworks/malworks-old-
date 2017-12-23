@@ -72,6 +72,8 @@
 
 #experience {
 	background-color: white;
+	display: flex;
+	flex-direction: column;
 }
 
 #experience h2, #experience h4, #experience h5 {
@@ -85,23 +87,27 @@
 }
 
 .experiencePosition {
-	justify-content: center;
-	flex-direction: column;
-	width: 40%;
+	width: 52%;
 	margin: 4em 2em;
-	flex: 0 1 26%;
+	display: flex;
+	flex-direction: row;
 }
 
 #experience h4 {
 	display: inline-block;
 }
 
-.more-info {
-	margin-left: 11.5em;
+.date {
+	width: 18%;
 }
 
-.margin-left {
-	margin-left: 2em;
+.more-info h4 {
+	width: 100%;
+}
+
+.more-info {
+	margin-left: 3em;
+	width: 50%;
 }
 
 /* Education section */
