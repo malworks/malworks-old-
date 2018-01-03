@@ -87,7 +87,7 @@
 }
 
 .experiencePosition {
-	width: 52%;
+	width: 100%;
 	margin: 4em 2em;
 	display: flex;
 	flex-direction: row;
@@ -103,8 +103,9 @@
 	display: inline-block;
 }
 
-.date {
+#experiencePosition.date {
 	width: 18%;
+	text-align: right;
 }
 
 .more-info h4 {
