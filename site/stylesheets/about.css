@@ -114,7 +114,11 @@
 
 .more-info {
 	margin-left: 3em;
-	width: 50%;
+	width: 26%;
+}
+
+.opposite-day {
+	margin-right: 3em;
 }
 
 /* Education section */
