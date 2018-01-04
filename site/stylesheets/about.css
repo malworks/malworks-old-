@@ -127,7 +127,10 @@
 
 #verticalLine {
   border-left: thick solid red;
-  height: 50%;
+  height: 100%;
+  left: 46.5vw;
+  position: absolute;
+  z-index: 99;
 }
 
 /* Education section */
