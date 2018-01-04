@@ -88,7 +88,7 @@
 
 .experiencePosition {
 	width: 100%;
-	margin: 4em 2em;
+	margin: 4em 6em;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -97,6 +97,10 @@
 .experiencePosition:nth-child(odd) {
 	flex-direction: row-reverse;
 	text-align: right;
+}
+
+#experience div:nth-of-type(2) {
+	margin: 4em -15em;
 }
 
 #experience h4 {
@@ -118,7 +122,12 @@
 }
 
 .opposite-day {
-	margin-right: 3em;
+	margin-right: 5em;
+}
+
+#verticalLine {
+  border-left: thick solid red;
+  height: 50%;
 }
 
 /* Education section */
