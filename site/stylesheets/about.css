@@ -11,9 +11,10 @@
 /* Intro & What I Do */
 
 #intro {
-	display: flex;
-	flex-wrap: wrap;
-  	flex-direction: row;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(3, 100px);
   	background-color: white;
 }
 
@@ -21,9 +22,7 @@
 	justify-content: center;
 	flex-direction: column;
 	text-align: center;
-	width: 33.33333%;
-	margin: 4em 2em;
-	flex: 0 1 26%;
+	margin-top: 2em;
 }
 
 #intro div:first-child {
