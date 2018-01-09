@@ -179,15 +179,21 @@
 	display: block;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
 	
+	#intro {
+		flex-direction: column;
+		align-content: center;
+	}
+
+	#intro div:first-child {
+		margin-left: 0;
+	}
+
 	.whatIDo {
-		justify-content: center;
-		flex-direction: row;
-		text-align: center;
-		width: 50%;
-	 	margin: 4em 2em;
-	 	flex: auto;
+		width: 100%;
+		padding: 0 4em;
+		margin: 2em 0;
 	}
 
 }
