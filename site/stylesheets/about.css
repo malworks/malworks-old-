@@ -11,10 +11,9 @@
 /* Intro & What I Do */
 
 #intro {
-	display: grid;
-	grid-gap: 10px;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: repeat(3, 100px);
+	display: flex;
+ 	flex-wrap: nowrap;
+ 	flex-direction: row;
   	background-color: white;
 }
 
@@ -22,7 +21,9 @@
 	justify-content: center;
 	flex-direction: column;
 	text-align: center;
-	margin-top: 2em;
+	width: 33.33333%;
+ 	margin: 4em 2em;
+ 	flex: 0 1 26%;
 }
 
 #intro div:first-child {
@@ -176,4 +177,17 @@
 
 #education .school {
 	display: block;
+}
+
+@media screen and (max-width: 1000px) {
+	
+	.whatIDo {
+		justify-content: center;
+		flex-direction: row;
+		text-align: center;
+		width: 50%;
+	 	margin: 4em 2em;
+	 	flex: auto;
+	}
+
 }
